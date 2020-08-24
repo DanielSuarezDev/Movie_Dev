@@ -4,7 +4,7 @@
 
 Realice un ejercicio con css grid layout, para poder medir mis conocimientos realice una plataforma de video responsive, solo tulice css y html.
 
-<img src="https://user-images.githubusercontent.com/65202664/91093455-13df5700-e61f-11ea-99ff-988c4f94f937.png" width="50">
+<img src="https://user-images.githubusercontent.com/65202664/91093455-13df5700-e61f-11ea-99ff-988c4f94f937.png" >
 
 <br>
 **Connect with me:**<br>

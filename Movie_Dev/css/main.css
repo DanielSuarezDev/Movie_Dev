@@ -1,0 +1,243 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  font-size: 50px;
+  text-align: center;
+  color: #90c93c;
+  padding: 10px 0 50px 0;
+}
+
+/* DANDOLE ESTILO A LA NAVEGACION DE LA IZQUIERDA */
+figure {
+  margin: 0;
+}
+
+img {
+  100%;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 320px 1fr;
+}
+
+.nav-left {
+  background: #151b31;
+  color: #ffffff;
+  padding: 30px;
+}
+
+.nav-left h2 {
+  font-size: 30px;
+  margin: auto 1px;
+  color: #ff4b50;
+}
+
+.nav-left ol {
+  padding: 10px;
+  margin: 0;
+}
+
+.nav-left li {
+  margin: 10px 0;
+  padding: 10px 0;
+}
+
+.nav-left li a {
+  text-decoration: none;
+  color: #ffffff;
+  /* display: block; */
+  font-size: 16px;
+}
+
+.friends figure {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  /* margin-right: 20px; */
+}
+
+.friends img {
+  width: 100%;
+}
+
+.friend {
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+}
+
+.friend p {
+  padding: 0 10px;
+}
+
+/* ESTILOS AL MAIN PRINCIPAL */
+
+.main-video {
+  position: relative;
+}
+
+.main-video figure img {
+  width: 100%;
+}
+
+.cover {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 99%;
+  background: rgba(0, 0, 0, .5);
+}
+
+.cover img {
+  cursor: pointer;
+}
+
+.main-description {
+  border-bottom: 1px solid #151b31;
+  padding: 15px;
+}
+
+.video-title {
+  font-size: 25px;
+  padding: 10px;
+}
+
+.video-title p {
+  font-size: 15px;
+  color: #aaaaaa;
+}
+
+.video-option {
+  padding: 15px;
+}
+
+.video-option img {
+  width: 30px;
+}
+
+.video-list {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.video-list a {
+  margin-right: 20px;
+  text-align: center;
+  text-decoration: none;
+  color: #151b31;
+}
+
+.icono figure img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.videoOption-agregar {
+  border: 1px solid #aaaaaa;
+  padding: 20px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, rgb(125, 123, 241), rgb(184, 184, 184));
+}
+
+.video-tags a {
+  border: 1px solid #aaaaaa;
+  padding: 10px;
+  border-radius: 20px;
+  background: linear-gradient(to bottom, green, white);
+}
+
+/* parte de comentaiors y sugerencias */
+.main-dashboard {
+  padding: 15px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 490px);
+}
+
+/* .comments {} */
+.comments-das {
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.comments input {
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  margin: auto 10px;
+  padding: 5px 100px;
+}
+
+.comments figure {
+  border-radius: 100%;
+  margin: 0;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+}
+
+.comments figure img {
+  width: 50px;
+}
+
+.coment {
+  display: flex;
+  align-items: center;
+  padding: 12px;
+}
+
+.coment figure {
+  width: 40px;
+  height: 40px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+.coment figure img {
+  width: 50px;
+}
+
+.coment-content {
+  margin-left: 10px;
+}
+
+.other-video {
+  padding: 30px;
+  justify-self: center;
+}
+
+.other-video img {
+  width: 340px;
+  height: 170px;
+  padding: 10px 0;
+  border-radius: 11px;
+}
+
+.other figure img {
+  border-radius: 11px;
+}
+
+@media screen and (max-width: 1024) {}
+
+@media screen and (max-width: 767) {}
+
+@media screen and (max-width: 1024) {}
+
+@media screen and (max-width: 1024) {}
